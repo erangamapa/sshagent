@@ -1,0 +1,27 @@
+{
+  "name": "sshagent",
+  "version": "1.0.1",
+  "description": "An agent which accepts commands from server",
+  "main": "sshagent.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erangamapa/sshagent.git"
+  },
+  "keywords": [
+    "ssh",
+    "agent"
+  ],
+  "author": "erangam",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/erangamapa/sshagent/issues"
+  },
+  "dependencies": {
+    "ws": "0.7.2",
+    "sync-request": "2.0.1",
+    "btoa": "1.1.2"
+  }
+}
